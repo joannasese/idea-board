@@ -22,6 +22,45 @@
   color: #61dafb;
 }
 
+.deleteButton {
+  visibility: hidden;
+  float: right;
+  margin: 5px;
+  font-size: 14px;
+  cursor: pointer;
+  color: red;
+}
+
+.input {
+  border: 0;
+  background: none;
+  outline: none;
+  margin-top: 10px;
+  width: 140px;
+  font-size: 11px;
+}
+
+.input:focus {
+  border: solid 1px lightgrey;
+}
+
+.newIdeaButton {
+  background: darkblue;
+  color: white;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+  margin-right: 10px;
+  margin-left: 10px;
+  padding: 10px;
+}
+
+textarea {
+  resize: none;
+  height: 90px;
+  font-size: 11px;
+}
+
 .tile {
   height: 150px;
   width: 150px;
@@ -30,6 +69,10 @@
   float: left;
   font-size: 11px;
   text-align: left;
+}
+
+.tile:hover .deleteButton {
+  visibility: visible;
 }
 
 @keyframes App-logo-spin {
