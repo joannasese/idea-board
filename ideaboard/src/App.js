@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import IdeasContainer from './components/IdeasContainer'
+import IdeasContainer from './components/IdeasContainer';
 
 export default class App extends Component {
   render() {
